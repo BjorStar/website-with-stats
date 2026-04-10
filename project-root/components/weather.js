@@ -2,7 +2,7 @@
 //  WEATHER MODULE
 // ===============================
 
-const WEATHER_API_KEY = "6c401f8df293aebee5167ca0cfe7df10";   // <-- Byt ut!
+const WEATHER_API_KEY = "c9b394246ad6da8210c970fd4961d04c";   // <-- Byt ut!
 const CITY = "Stockholm";                    // <-- Ändra om du vill
 
 export async function loadWeather() {
