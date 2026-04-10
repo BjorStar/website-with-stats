@@ -1,0 +1,22 @@
+body {
+  background-color: #0f172a; /* mörk blågrå */
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  color: #38bdf8; /* ljus blå */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.widget {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(6px);
+}
+

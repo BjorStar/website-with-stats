@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Startsida</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Din egen CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="p-10">
+
+    <div class="container mx-auto max-w-4xl space-y-10">
+
+        <!-- Header -->
+        <header class="flex justify-between items-center">
+            <h1 class="text-4xl font-bold">Min Startsida</h1>
+            <div id="clock" class="text-2xl font-semibold">Laddar tid...</div>
+        </header>
+
+        <!-- Väder -->
+        <section class="widget">
+            <h2 class="text-xl font-semibold mb-2">Väder</h2>
+            <div id="weather">Laddar väder...</div>
+        </section>
+
+        <!-- Nyheter -->
+        <section class="widget">
+            <h2 class="text-xl font-semibold mb-2">Nyheter</h2>
+            <div id="news">Laddar nyheter...</div>
+        </section>
+
+        <!-- Citat -->
+        <section class="widget">
+            <h2 class="text-xl font-semibold mb-2">Dagens citat</h2>
+            <div id="quote">Hämtar citat...</div>
+        </section>
+
+        <!-- Snabblänkar -->
+        <section class="widget">
+            <h2 class="text-xl font-semibold mb-2">Snabblänkar</h2>
+            <div class="grid-links">
+                <a class="link-box" href="https://google.com" target="_blank">Google</a>
+                <a class="link-box" href="https://youtube.com" target="_blank">YouTube</a>
+                <a class="link-box" href="https://gmail.com" target="_blank">Gmail</a>
+                <a class="link-box" href="https://github.com" target="_blank">GitHub</a>
+                <a class="link-box" href="https://svt.se" target="_blank">SVT</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Viktigt: main.js måste laddas som module -->
+    <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
+
