@@ -1,5 +1,5 @@
 // ===============================
-//  WEATHER MODULE
+//  WEATHER MODULE FÖR ALLA SOM KOLLAR
 // ===============================
 
 const WEATHER_API_KEY = "c9b394246ad6da8210c970fd4961d04c";   // <-- Byt ut!
